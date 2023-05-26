@@ -1,9 +1,6 @@
 :root{
     --title-color:
 }
-
-
-
 .body {
    font-family: "Roboto", sans-serif;
    color: #434455
@@ -129,5 +126,7 @@ background-color: #404BBF;
     background-color:#2E2F42;
     letter-spacing: 0.02em;
 }
-
+.last-information{
+    background-color: #2e2f42;
+}
 
