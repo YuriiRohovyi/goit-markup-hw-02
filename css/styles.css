@@ -1,13 +1,5 @@
 .body {
-   font-family: 'Roboto', sans-serif;
-}
-
-a {
-   text-decoration: none;
-}
-
-ul{
-    list-style-type: none;
+   font-family: "Roboto", sans-serif;
 }
 
 .header-logo {
@@ -49,11 +41,11 @@ ul{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-     color: #FFFFFF;
+    color: #FFFFFF;
    
 }
 
-.hero-button: hover {
+.hero-button:hover {
     color: #404BBF;
 }
 
