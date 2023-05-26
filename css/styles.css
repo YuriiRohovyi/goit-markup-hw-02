@@ -10,16 +10,17 @@
 }
 
 .header-logo {
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
 }
 
 .header-logo span {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;
     color: #4D5AE5;
 }
 
@@ -41,27 +42,35 @@
     line-height: 1.07;
     color: #FFFFFF;
     background-color: #2E2F42;
+    text-align: center;
+    letter-spacing: 0.02em;
 }
 
 .hero-button{
-    font-family: inherit;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     color: #FFFFFF;
+    background-color: #4D5AE5;
+    letter-spacing: 0.04em;
    
 }
 
 .hero-button:hover {
     color: #404BBF;
+    background-color: #404BBF;
+}
+.hero-button:focus{
+background-color: #404BBF;
 }
 
-.options-item {
-    
+.options-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
+    line-height:1.2;
     color: #2E2F42;
+    letter-spacing: 0.02em;
 }
 
 .option-text {
@@ -70,19 +79,39 @@
     line-height: 1.5;
     color: #434455;
 }
-.information-team{
+
+.information-work{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     color: #2E2F42;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 
 }
+.general-information{
+    background-color: #F4F4FD;
+}
+
+.information-team{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+
 
 .information-members{
    font-weight: 500;
    font-size: 20px;
    line-height: 1.2;
    color: #2E2F42;
+   letter-spacing: 0.02em;
 }
 
 .information-members-option{
@@ -98,6 +127,7 @@
     line-height: 1.5;
     color: #F4F4FD;
     background-color:#2E2F42;
+    letter-spacing: 0.02em;
 }
 
 
