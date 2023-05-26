@@ -1,5 +1,12 @@
+:root{
+    --title-color:
+}
+
+
+
 .body {
    font-family: "Roboto", sans-serif;
+   color: #434455
 }
 
 .header-logo {
