@@ -1,7 +1,6 @@
 :root{
-    --primary-background-color: #ffffff;
-    --first-footer-logo-color: #4d5ae5;
-    --secondary-background-color: #2e2f42;
+    --first-header-logo-color: #4D5AE5;
+    --second-header-logo-color: #2e2f42;
 }
 body {
    font-family: "Roboto", sans-serif;
@@ -11,6 +10,7 @@ body {
 
 .header-logo {
     font-family: "Raleway", sans-serif;
+
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -19,10 +19,12 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
+    color: var(--first-footer-logo-color);
+
 }
 
 .link-studio {
-    color: #2E2F42;
+    color: var(--second-header-logo-color)
 }
 
 .list {
@@ -43,6 +45,8 @@ body {
     line-height: 1.15;
     color: #2E2F42;
 }
+
+
 
 .header-menu-link:hover{
     color: #404BBF;
