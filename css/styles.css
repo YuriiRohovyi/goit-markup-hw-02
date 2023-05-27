@@ -27,9 +27,6 @@ body {
 
 
 /* header */
-
-
-
 .header-logo {
     font-family: var(--second-primary-font);
     font-weight: 800;
@@ -173,62 +170,70 @@ background-color: #404BBF;
     background-color: #2e2f42;
 }
 
-/* Portfolio */
+
+
+/* portfolio page*/
 
 
 
-
-
-
-
-.logo-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: var(--second-logo-color);
+.section1_button {
+    list-style: none;
 }
 
-.link-studio {
-    color: var(--first-logo-color);
-}
-
-.list {
-    list-style-type: none;
-}
-
-.link {
+.button-list {
     text-decoration: none;
 }
 
-.nav-link {
+.button_navportfolio {
+    background-color: var(--accent-background-color);
+    color: var(--accent-color);
+    border: 1px solid #e7e9fc;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+}
+
+.list-portfoliobutton {
+    list-style: none;
+}
+
+.list-portfolioimg {
+    list-style: none;
+}
+
+.button_navportfolio:is(:hover, :focus) {
+    color: var(--white-color);
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.portfolioimg {
+    text-decoration: none;
+}
+
+.service_name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
+    text-decoration: none
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: var(--active-accent-background-color);
-}
-
-.address {
-    font-style: normal;
-}
-
-.address-link {
+.service_app {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
-    font-style: normal;
-    text-decoration: none;
-    color: var(--primary-color);
     letter-spacing: 0.02em;
+    color: var(--primary-color);
+    text-decoration: none
 }
+
+
+
+
+
+
